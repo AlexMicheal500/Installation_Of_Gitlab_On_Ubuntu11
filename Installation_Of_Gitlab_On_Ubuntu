@@ -97,3 +97,9 @@ Step 5 — Performing Initial Configuration Through the Web Interface
 With GitLab running and access permitted, we can perform some initial configuration of the application through the web interface.
 
 https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-gitlab-on-ubuntu-18-04
+
+Note:  Because these credentials might be present in your log files in plain text, 
+it is highly recommended to reset the password following https://docs.gitlab.com/ee/security/reset_user_password.html#reset-your-root-password.
+
+OR USE: 
+$ sudo gitlab-rake "gitlab:password:reset"
