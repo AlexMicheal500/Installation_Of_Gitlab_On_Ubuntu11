@@ -104,5 +104,5 @@ it is highly recommended to reset the password following https://docs.gitlab.com
 OR USE: 
 $ sudo gitlab-rake "gitlab:password:reset"
 
-NOTE: 1) Make sure to use an ubuntu of lower version and secondly make sure to use 8GB RAM  Memory Server
+NOTE: 1) Make sure to use an ubuntu of lower version and secondly make sure to use 8GB RAM  Memory Server ....
        2) TO LEARN MORE VISIT https://www.youtube.com/watch?v=ydzZJZBvE2o&t=245s
