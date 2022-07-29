@@ -43,6 +43,12 @@ Before you configure GitLab, you will need to ensure that your firewall rules ar
 
 View the current status of your active firewall by typing:
 
+sudo ufw allow ssh
+	sudo ufw allow 22
+	sudo ufw enable
+	sudo ufw status
+
+
 sudo ufw status
 Output
 Status: active
